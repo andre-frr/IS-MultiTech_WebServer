@@ -25,8 +25,8 @@ Antes de começar, certifica-te de que tens instalados:
 /cliente
     client.py
 /documentacao
-    README.md
 .gitignore
+README.md
 requirements.txt
 ```
 
