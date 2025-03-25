@@ -151,7 +151,3 @@ cython_debug/
 .idea/
 *.swp
 *.swo
-
-# JSON/XML Data
-*.json
-*.xml
