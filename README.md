@@ -26,14 +26,25 @@ Antes de começar, certifica-te de que tens instalados:
     client.py
 /documentacao
 .gitignore
-README.md
 requirements.txt
+README.md
 ```
 
 ## ⚙️ Instalação
 
 As dependências devem ser instaladas **tanto no servidor como no cliente**. Para isso, executa:
 
-```sh
-pip install -r requirements.txt
-```
+1. **Clonar o repositório**  
+   Primeiro, clona o repositório para a tua máquina:
+
+   ```sh
+   git clone <URL_DO_REPOSITORIO>
+   ```
+
+2. **Instalar as dependências**  
+   Depois de clonar o repositório, navega até à pasta do projeto e instala as dependências com:
+
+   ```sh
+   cd <nome-do-repositorio>
+   pip install -r requirements.txt
+   ```
