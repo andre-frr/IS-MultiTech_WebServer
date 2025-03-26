@@ -24,8 +24,8 @@ Antes de começar, certifica-te de que tens instalados:
 /servidor
     /services
         graphql_service.py
-        grpc_client.py
-        rest_client.py
+        grpc_service.py
+        rest_service.py
         soap_service.py
     config.py
     server.py
