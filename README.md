@@ -13,21 +13,26 @@ Antes de começar, certifica-te de que tens instalados:
 ## 📂 Estrutura do Projeto
 
 ```
-/servidor
-    /services
-        soap.py
-        rest.py
-        graphql.py
-        grpc.py
-    tasks.json
-    config.py
-    server.py
 /cliente
+    /requests
+        graphql_client.py
+        grpc_client.py
+        rest_client.py
+        grpc_client.py
     client.py
 /documentacao
+/servidor
+    /services
+        graphql_service.py
+        grpc_client.py
+        rest_client.py
+        soap_service.py
+    config.py
+    server.py
+    tasks.json
 .gitignore
-requirements.txt
 README.md
+requirements.txt
 ```
 
 ## ⚙️ Instalação
