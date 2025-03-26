@@ -18,7 +18,7 @@ Antes de começar, certifica-te de que tens instalados:
         graphql_client.py
         grpc_client.py
         rest_client.py
-        grpc_client.py
+        soap_client.py
     client.py
 /documentacao
 /servidor
